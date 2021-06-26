@@ -18,7 +18,7 @@ body {
 
 .logo a {
     font-size: 37px;
-    font-weight: 765;
+    font-weight: 900;
     float: left;
     color: #364f6b;
 }
@@ -90,7 +90,6 @@ nav ul li a:hover {
 
 .banner {
 	height: 100vh;
-	background-image: url('gambarpelajar.jpeg');
 	background-size: cover;
 	position: relative;
 	display: flex;
@@ -113,6 +112,16 @@ nav ul li a:hover {
 	padding: 20px 25px;
 	border:1px solid #fff;
 	border-radius: 5px;
+}
+#tm-video-container {
+    max-height: 450px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#tm-video {
+    width: 100%;
+    height: auto;
 }
 
 section {
@@ -146,11 +155,22 @@ a.tbl-biru {
     background: #3f72af;
     border-radius: 5px;
     margin-top: 20px;
-    padding: 15px 20px 15px 20px;
+    margin-left: 20px;
+    padding: 10px 15px 10px 15px;
     color: #FFFFFF;
     cursor: pointer;
     font-weight: bold;
      box-shadow: 0px 10px 10px rgba(2, 32, 32, 0.1);
+}
+
+a.tbl-biru2 {
+    background: #3f72af;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 a.tbl-biru:hover {
@@ -196,8 +216,8 @@ p {
 }
 
 .kartu-tutor img {
-    width: 80%;
-    border-radius: 100%;
+    width: 60%;
+    border-radius: 48%;
     box-shadow: 20px 12px 17px rgba(17, 16, 16, 0.1);
 }
 
@@ -223,6 +243,7 @@ p {
 
 .kartu-partner img {
     width: 150px;
+    margin-bottom: 30px;
     border-radius: 0%;
 }
 
